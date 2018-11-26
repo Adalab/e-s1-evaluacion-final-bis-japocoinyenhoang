@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +9,17 @@
   <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
+
 <body>
   <div class="page">
     <div class="page__wrapper">
-      <header class="header__container">
-        <div class="header__logo">
-          <a href="" class="header__logo--link">
-          <img src="../assets/images/logo-adalab-80px.png" alt="logo de adalab" class="header__logo--item">
-        </a>
-        </div>
-        <ul class="header__menu">
-          <li class="header__menu--item">blog</li>
-          <li class="header__menu-item">contacto</li>
-        </ul>
-      </header>
-      <main class="main__container">
-        <h1 class="main__title">Creando Diversidad Digital</h1>
-      </main>
-      <footer class="footer__container">
-        <p class="footer__text">Adalab © 2018</p>
-      </footer>
+      <partial src="_header.html" label="Header"></partial>
+      <partial src="_main.html" label="Main"></partial>
+      <partial src="_footer.html" label="Footer"></partial>
     </div>
-    <!-- <partial src="_header.html" label="Header"></partial>
-    <partial src="_main.html" label="Main"></partial> -->
   </div>
 </body>
+
 </html>
 
-  <!-- <link rel="icon" href="favicon.png"/> -->
+<!-- <link rel="icon" href="favicon.png"/> -->
