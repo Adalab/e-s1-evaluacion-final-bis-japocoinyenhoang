@@ -28,6 +28,9 @@
       justify-self: start;
     }
   }
+  .header__logo--link{
+    height: 0;
+  }
   
   
   .header__logo--item {
@@ -53,7 +56,7 @@
     }
   }
   
-  .header__logo--link {
+  .header__logomenu--link {
     text-decoration: none;
     color: $menu-grey;
     transition: color ease 1s;
