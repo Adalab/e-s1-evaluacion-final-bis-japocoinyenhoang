@@ -1,20 +1,18 @@
-.main__container {
+.hero__container {
   background: url('../images/photo-1494438639946-1ebd1d20bf85.jpeg') center center no-repeat;
   background-position: 66%;
-  height: 100vh;
-  min-height: 366px;
+  min-height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
 
   @media all and (min-width: 768px) {
-    min-height: 834px;
     background-position: 60%;
   }
 }
 
 
-.main__title {
+.hero__title {
   max-width: 161px;
 
   @media all and (min-width: 768px) {
@@ -23,7 +21,7 @@
 }
 
 
-.main__title--text {
+.hero__title--text {
   color: $white;
   font-family: $font;
   font-weight: bold;

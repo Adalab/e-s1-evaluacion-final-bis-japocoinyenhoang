@@ -2,6 +2,8 @@
   background-color: $white;
   text-align: center;
   height: 112px;
+  position: fixed;
+  width: 100vw;
 
   @media all and (min-width: 768px) {
     height: 100px;
@@ -28,9 +30,6 @@
 }
 
 
-.header__logo--link {}
-
-
 .header__logo--item {
   width: 155px;
   height: 60px;
@@ -40,9 +39,8 @@
 .header__menu {
   font-family: $font;
   font-size: 16px;
-  color: $menu-grey;
   padding: 0;
-  margin: 0 auto 13px;
+  margin: 0 0 13px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -55,6 +53,16 @@
   }
 }
 
+.header__logo--link {
+  text-decoration: none;
+  color: $menu-grey;
+  transition: color ease 1s;
+
+  &:hover {
+    color: #32decf;
+    text-decoration: underline;
+  }
+}
 
 .header__menu--item1 {
   padding-right: 20px;
