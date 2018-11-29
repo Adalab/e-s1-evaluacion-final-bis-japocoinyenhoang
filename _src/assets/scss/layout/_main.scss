@@ -1,13 +1,15 @@
 .main__container {
   background: url('../images/photo-1494438639946-1ebd1d20bf85.jpeg') center center no-repeat;
+  background-position: 66%;
+  height: 100vh;
   min-height: 366px;
-  max-height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
 
   @media all and (min-width: 768px) {
     min-height: 834px;
+    background-position: 60%;
   }
 }
 
