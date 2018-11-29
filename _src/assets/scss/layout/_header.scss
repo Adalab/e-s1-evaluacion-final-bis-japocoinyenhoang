@@ -1,69 +1,69 @@
 .header__container {
-  background-color: $white;
-  text-align: center;
-  height: 112px;
-  position: fixed;
-  width: 100vw;
-
-  @media all and (min-width: 768px) {
-    height: 100px;
+    background-color: $white;
+    text-align: center;
+    height: 112px;
+    position: fixed;
+    width: 100vw;
+  
+    @media all and (min-width: 768px) {
+      height: 100px;
+    }
   }
-}
-
-
-.grid__container {
-  @media all and (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "a b";
+  
+  
+  .grid__container {
+    @media all and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "a b";
+    }
   }
-}
-
-.header__logo {
-  margin: 10px auto;
-
-  @media all and (min-width: 768px) {
-    margin: 20px 0;
-    grid-area: a;
-    justify-self: start;
+  
+  .header__logo {
+    margin: 10px auto;
+  
+    @media all and (min-width: 768px) {
+      margin: 20px 0;
+      grid-area: a;
+      justify-self: start;
+    }
   }
-}
-
-
-.header__logo--item {
-  width: 155px;
-  height: 60px;
-}
-
-
-.header__menu {
-  font-family: $font;
-  font-size: 16px;
-  padding: 0;
-  margin: 0 0 13px;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  list-style: none;
-
-  @media all and (min-width: 768px) {
-    grid-area: b;
-    justify-self: end;
-    align-self: center;
+  
+  
+  .header__logo--item {
+    width: 155px;
+    height: 60px;
   }
-}
-
-.header__logo--link {
-  text-decoration: none;
-  color: $menu-grey;
-  transition: color ease 1s;
-
-  &:hover {
-    color: #32decf;
-    text-decoration: underline;
+  
+  
+  .header__menu {
+    font-family: $font;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 13px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  
+    @media all and (min-width: 768px) {
+      grid-area: b;
+      justify-self: end;
+      align-self: center;
+    }
   }
-}
-
-.header__menu--item1 {
-  padding-right: 20px;
-}
+  
+  .header__logo--link {
+    text-decoration: none;
+    color: $menu-grey;
+    transition: color ease 1s;
+  
+    &:hover {
+      color: #32decf;
+      text-decoration: underline;
+    }
+  }
+  
+  .header__menu--item1 {
+    padding-right: 20px;
+  }
