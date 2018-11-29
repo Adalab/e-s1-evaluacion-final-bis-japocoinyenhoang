@@ -1,6 +1,6 @@
 .hero__container {
     background: url('../images/photo-1494438639946-1ebd1d20bf85.jpeg') center center no-repeat;
-    background-position: 66%;
+    background-position: 70%;
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -8,7 +8,7 @@
     padding-top: 112px;
   
     @media all and (min-width: 768px) {
-      background-position: 60%;
+      background-position: 65%;
       padding-top: 100px;
     }
   }
