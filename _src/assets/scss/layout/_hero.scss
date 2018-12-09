@@ -1,0 +1,38 @@
+.hero__container {
+    background: url('../images/photo-1494438639946-1ebd1d20bf85.jpeg') center center no-repeat;
+    background-position: 70%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 112px;
+  
+    @media all and (min-width: 768px) {
+      background-position: 65%;
+      padding-top: 100px;
+    }
+  }
+  
+  
+  .hero__title {
+    max-width: 161px;
+  
+    @media all and (min-width: 768px) {
+      max-width: 322px;
+    }
+  }
+  
+  
+  .hero__title--text {
+    color: $white;
+    font-family: $font;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    align-self: center;
+  
+    @media all and (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
